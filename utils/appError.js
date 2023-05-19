@@ -1,4 +1,3 @@
-// Кастомный error (паттерн)
 class AppError extends Error {
     constructor(status, message) {
         super(message);

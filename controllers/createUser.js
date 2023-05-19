@@ -16,7 +16,7 @@ const createUser = catchAsync(async (req, res) => {
     newUser.password = undefined;
   
     res.status(201).json({
-      user: newUser,
+      card: newUser,
     });
 });
 
